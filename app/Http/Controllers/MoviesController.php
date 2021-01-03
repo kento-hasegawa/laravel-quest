@@ -14,7 +14,7 @@ class MoviesController extends Controller
         $user = \Auth::user();
         $movies = $user->movies()->orderBy('id', 'desc')->paginate(9);
         
-        $data=[
+        $data = [
             'user' => $user,
             'movies' => $movies,
         ];
