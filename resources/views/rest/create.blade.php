@@ -17,7 +17,7 @@
             @include('commons.error_messages')
 
         
-                <h2 class="mt-5">動画を登録する</h2>
+            <h2 class="mt-5">動画を登録する</h2>
         
                 {!! Form::open(['route'=>'rest.store']) !!}
                     <div class="form-group mt-5">
