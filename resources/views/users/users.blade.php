@@ -69,6 +69,7 @@
             </div>
 
     @endforeach
+    
 </div>
 
 {{ $users->links('pagination::bootstrap-4') }}
